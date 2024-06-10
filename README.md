@@ -11,10 +11,10 @@ Helsingin Sanomat.
    search . The logic is borrowed from my old Sanajahti solver. The vocabulary
    is based on the 2024 Kotus word list containing all Finnish words [[1]](#1).
 
-2. The subset of words that cover the entire word grid are using the
+2. The subset of words that cover the entire word grid are found using the
    [Knuth's Algorithm X](https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X)
-   which is an simple way to solve exact cover problems. The exact
-   implementation based on
+   which provides an elegant way to solve the problem. The exact implementation
+   is based on
    [Ali Assaf's implementation](https://www.cs.mcgill.ca/~aassaf9/python/algorithm_x.html).
 
 The code is not optimized for performance, but it works well for the given
