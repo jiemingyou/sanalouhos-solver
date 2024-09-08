@@ -1,5 +1,8 @@
 # Sanalouhos solver
 
+> [!NOTE]  
+> The algorithm falsely assumes that the words must *not* cross each other diagonally. I'll let it be, no plans to fix it for now :)
+
 A simple python script for solving the Sanalouhos word puzzle game created by
 Helsingin Sanomat.
 
